@@ -91,7 +91,7 @@ export const constantRoutes = [
         path: 'index',
         component: () => import('@/views/documentation/index'),
         name: 'Documentation',
-        meta: { title: '商品分类展示', icon: 'documentation', affix: true }
+        meta: { title: '商品分类展示', icon: 'shopping', affix: true }
       }
     ]
   },
@@ -103,7 +103,7 @@ export const constantRoutes = [
         path: 'index',
         component: () => import('@/views/documentation/index'),
         name: 'Documentation',
-        meta: { title: '评论展示', icon: 'documentation', affix: true }
+        meta: { title: '评论展示', icon: 'message', affix: true }
       }
     ]
   },
@@ -115,7 +115,7 @@ export const constantRoutes = [
         path: 'index',
         component: () => import('@/views/documentation/index'),
         name: 'Documentation',
-        meta: { title: '公告展示板块', icon: 'documentation', affix: true }
+        meta: { title: '公告展示板块', icon: 'edit', affix: true }
       }
     ]
   },
@@ -127,7 +127,7 @@ export const constantRoutes = [
         path: 'index',
         component: () => import('@/views/documentation/index'),
         name: 'Documentation',
-        meta: { title: '文章展示板块', icon: 'documentation', affix: true }
+        meta: { title: '文章展示板块', icon: 'form', affix: true }
       }
     ]
   },
@@ -139,7 +139,7 @@ export const constantRoutes = [
         path: 'index',
         component: () => import('@/views/documentation/index'),
         name: 'Documentation',
-        meta: { title: '用户订单板块', icon: 'documentation', affix: true }
+        meta: { title: '用户订单板块', icon: 'user', affix: true }
       }
     ]
   },
@@ -151,7 +151,7 @@ export const constantRoutes = [
         path: 'index',
         component: () => import('@/views/documentation/index'),
         name: 'Documentation',
-        meta: { title: '用户问卷展示', icon: 'documentation', affix: true }
+        meta: { title: '用户问卷展示', icon: 'list', affix: true }
       }
     ]
   },
@@ -175,7 +175,7 @@ export const constantRoutes = [
         path: 'index',
         component: () => import('@/views/documentation/index'),
         name: 'Documentation',
-        meta: { title: '公告添加板块', icon: 'documentation', affix: true }
+        meta: { title: '公告添加板块', icon: 'clipboard', affix: true }
       }
     ]
   },
